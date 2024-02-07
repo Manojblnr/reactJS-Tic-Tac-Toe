@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  background-color: #1F2544;
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.board{
+  background-color:azure;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 10px;
+  cursor: pointer;
+}
+
+.board_tiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.board_tiles:active{
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
